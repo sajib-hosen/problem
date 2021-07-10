@@ -1,0 +1,37 @@
+nav {
+    border: 1px dotted red;
+}
+nav > ul {
+    border: 1px dotted red;
+    display: flex;
+    background-color: rgb(87, 87, 87);
+    box-shadow: 10px 20px 10px black;
+    overflow: hidden;
+    padding: 0px; /**/
+}
+nav li {
+    border: 1px dotted red;
+    list-style-type: none;
+}
+
+nav a {
+    border: 1px dotted red;
+    text-decoration: none;
+    color: white;
+    display: block; /**/
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: rgb(26, 25, 25);
+}
+.d-down {
+    display: none;
+}
+nav > ul > li:hover > ul {
+    border: 1px dotted red;
+    display: block;
+    position: absolute;
+    background-color: rgb(87, 87, 87);
+}
